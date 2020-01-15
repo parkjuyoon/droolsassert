@@ -1,8 +1,8 @@
 package org.droolsassert;
 
 import static java.util.concurrent.TimeUnit.HOURS;
-import static org.drools.core.impl.KnowledgeBaseFactory.newKnowledgeSessionConfiguration;
 import static org.junit.Assert.assertEquals;
+import static org.kie.internal.KnowledgeBaseFactory.newKnowledgeSessionConfiguration;
 
 import org.droolsassert.SpringIntegrationTest.Weather;
 import org.droolsassert.SpringIntegrationTest2.AppConfig;
